@@ -1,0 +1,90 @@
+/*@import "lib/css/pure.css";*/
+.wrap {
+         width: 1310px;/*фиксируем ширину обертки*/
+         margin: 0 auto;/*центрируем ее*/
+         background: darkgray;
+         height: 120px;/*Задаем высоту обертки*/
+        }
+ 
+.bblock {
+        float: left; /*Задаем обтекание*/
+        line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+        font-size: 40px;
+        background: dodgerblue;
+        color: white;
+        width: 320px; /*Фиксируем ширину блока*/
+        margin-right: 10px;
+        text-align: center; /*Центрируем текст по горизонтали*/
+}
+.wrap :last-child {
+        margin-right: 0px;/*Убираем поле последнего div-а*/
+                       }
+/*
+.nav {
+	display: inline-block;
+  	width: 180px;
+	background: dodgerblue;
+        }
+ 
+        .string {
+         text-align: center;
+        }
+*/
+.visible_on03  {
+    visibility: visible;
+    transition: 0.7s linear;
+    opacity: 1;
+}
+.visible_off03 {
+    visibility: hidden;
+    transition: 0.3s linear;
+    opacity: 0;
+}
+
+ul.pagination {
+    margin: 2px 2px;
+    float: right;
+}
+/*------------------------------------------------------------------*/
+.appwrap {
+    /*    display: inline-block;*/
+    box-sizing: border-box;
+/*    border: 3px dashed #312a22;*/
+
+}
+.appbox {
+    display: inline-block;
+}
+
+.appbox > div {
+    float: left;
+    background: #ededed;
+}
+
+/****/
+
+.appwrap div.asideshift {
+    float: left;
+    height: 100%;
+}
+.appwrap div.asideleft {
+    float: left;
+    background: inherit;
+    height: 100%;
+}
+.appwrap > div.asideright {
+    float: right;
+    background: inherit;
+    height: 100%;
+}
+/* коррекции element-ui...*/
+ul.el-menu--horizontal {
+    border-bottom-width: 0px;
+}
+nav.navbar {
+    margin-bottom: 0px;
+}
+i.el-submenu__icon-arrow {
+   right: 2px;
+}
+/*-----------------------*/

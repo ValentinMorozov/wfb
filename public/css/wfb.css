@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------*/
+
+.container {
+  width: 100%;
+}
+
+.red_text {
+  color: red;
+}
+
+.blue_text {
+  color: blue;
+}
+
+.fix_top_left {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: yellow;
+  z-index: 999;
+}
+

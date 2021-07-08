@@ -1,0 +1,11 @@
+/*!
+element-icons -> element-theme-chalk
+*/
+
+@font-face {
+    font-family: element-icons;
+    src: url("vendor/element-theme-chalk/lib/element-icons.woff") format("woff"),
+         url("vendor/element-theme-chalk/lib/element-icons.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
